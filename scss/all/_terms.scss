@@ -1,0 +1,39 @@
+.terms {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 83px;
+}
+
+.term {
+    display: flex;
+    align-items: center;
+}
+
+.term__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(7, 19, 48, 0.5);
+}
+
+.term__text + .term__text {
+    margin-top: 14px;
+}
+
+.term__item + .term__item {
+    margin-left: 40px;
+}
+
+.term__item-link {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(7, 19, 48, 0.5);
+}
+
+.term__item-link:hover {
+    font-weight: 700;
+}

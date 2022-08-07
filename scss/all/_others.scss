@@ -1,0 +1,39 @@
+.others {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.others__title {
+    max-width: 450px;
+}
+
+.others__link {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3D55F9;
+    margin-bottom: 20px;
+}
+
+.others__heading {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    color: #071330;
+    margin-bottom: 33px;
+}
+
+.others__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #071330;
+}
+
+.others__text + .others__text {
+    margin-top: 31px;
+}

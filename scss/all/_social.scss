@@ -1,0 +1,59 @@
+.social__heading {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #071330;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 420px;
+    margin-bottom: 66px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.social__title {
+    max-width: 532px;
+}
+
+.social__link {
+    background: #3D55F9;
+    box-shadow: 16px 16px 32px rgba(7, 19, 48, 0.08);
+    border-radius: 28px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    display: inline-block;
+    margin-bottom: 24px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: 2px solid #3D55F9;
+}
+
+.social__link:hover {
+    background-color: #fff;
+    color: #3D55F9;
+}
+
+.card__headimg {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #071330;
+    margin-bottom: 23px;
+}
+
+.card__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(7, 19, 48, 0.6);
+}
